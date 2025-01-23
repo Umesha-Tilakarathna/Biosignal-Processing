@@ -1,4 +1,4 @@
-We conducted an EEG lab experiment which uses EEGLAB software to analyze multi-channel EEG data.
+This was an EEG lab experiment which uses EEGLAB software to analyze multi-channel EEG data.
 
 The experiment involves the following steps:
   * Installing EEGLAB and importing data
