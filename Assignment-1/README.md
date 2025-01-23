@@ -1,49 +1,14 @@
-# Signal Processing Assignment  
+This assignment focuses on implementing and analyzing signal processing techniques using MATLAB for noise reduction, signal enhancement, and filter design:
 
-## 1. Smoothing Filters  
+# Smoothing Filters:
 
-### 1.1 Moving Average Filter (MA(N))  
-- Implementation of MA(3) filter using custom script and built-in function.  
-- Group delay compensation.  
-- Comparison of noise-added signal, filtered signal, and original signal.  
-- Power Spectral Density (PSD) analysis.  
-- Analysis of MA(10) filter and its comparison with MA(3).  
-- Determination of optimal filter order using Mean Squared Error (MSE).  
+Applied Moving Average (MA) and Savitzky-Golay (SG) filters for noise reduction, evaluated filter performance using MSE and PSD, and compared filter characteristics.
 
-### 1.2 Savitzky-Golay Filter (SG(N,L))  
-- Implementation of SG(3,11) filter with group delay compensation.  
-- Determination of optimal filter parameters (N, L) using MSE.  
-- Comparison of MA(N) and SG(N,L) filters in terms of signal features and computational complexity.  
+# Ensemble Averaging:
 
----
+Enhanced signal quality for ABR data using synchronized averaging and analyzed SNR improvements.
+Processed noisy ECG signals by segmenting pulses via cross-correlation, performing ensemble averaging, and improving SNR.
 
-## 2. Ensemble Averaging  
+# FIR Filter Design:
 
-### 2.1 Signal with Multiple Measurements (ABR Data)  
-- Noise removal from auditory brainstem response (ABR) using synchronized averaging.  
-- Calculation of MSE and plotting progressive MSE values against the number of epochs.  
-- SNR improvement analysis.  
-
-### 2.2 Signal with Repetitive Patterns (ECG Pulse Train)  
-- Addition of Gaussian white noise to ECG signal.  
-- Segmentation of ECG pulses using normalized cross-correlation.  
-- Ensemble averaging and SNR improvement analysis.  
-- Justification of cross-correlation-based segmentation over R-wave detection.  
-
----
-
-## 3. Designing FIR Filters Using Windows  
-
-### 3.1 Rectangular Window  
-- Effect of window length (M) on impulse response.  
-- Magnitude and phase response comparison for different window lengths.  
-
-### 3.2 Window Improvements  
-- Exploration of smoother windows (e.g., Hamming, Hanning) to improve magnitude response.  
-
----
-
-## General Tasks  
-- Use of MATLAB for signal processing tasks.  
-- Comparison of theoretical and practical results with plots and discussions.  
-- MATLAB coding for filter design, signal processing, and performance evaluation.  
+Designed FIR filters using the Rectangular and other smoother windows (e.g., Hamming, Hanning) and studied their effects on magnitude and phase response.
