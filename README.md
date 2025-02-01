@@ -72,27 +72,6 @@ This assignment utilizes EEGLAB, an open-source MATLAB toolbox, for multi-channe
 
 ---
 
-### **Paper Implementation**
-- The paper implementation task contains in [This repository](https://github.com/RavinduMPK/EEG-signal-classification-using-PCA--ICA--LDA-and-support-vector-machines)
-
-## Usage
-
-### Prerequisites
-- MATLAB with Signal Processing Toolbox and Wavelet Toolbox.
-- EEGLAB toolbox for MATLAB.
-
-### Running the Scripts
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/username/biosignal-processing.git
-    cd biosignal-processing
-    ```
-2. Navigate to the desired assignment folder.
-3. Open the MATLAB scripts in MATLAB.
-4. Run the scripts in the specified order.
-
----
-
 ## Author
 - **Name**: Umesha Tilakarathna
 - **Course**: BM4152 Biosignal Processing
